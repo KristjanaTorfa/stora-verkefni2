@@ -2,7 +2,7 @@
 Stórt verkefni 2
 Verkefnið felur í sér að útbúa myndbandavef
 nemendur sem unnu verkefnið eru:
-Agnes Heiður Gunnarsdóttir, ahg 29 og
+Agnes Heiður Gunnarsdóttir, ahg29 og
 Kristjana Torfadóttir, krt9
 
 Upplýsingar um verkefnið
