@@ -1,0 +1,177 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+* {
+  margin: 0;
+  padding: 0; }
+
+main {
+  display: flex;
+  width: 1200px;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  padding: 1.25em;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+  .takkar {
+    padding: 0.75em;
+    width: 3.5em;
+  }
+
+  .vidbtn {
+    width: 5%;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .leigan {
+    margin-left: 1em;
+    font-size: 1.5em;
+  }
+
+  .myndbandaleigan {
+    padding-bottom: 1em;
+  }
+
+  .videos {
+    width: 47%;
+    padding-left: 0.4375em;
+    margin-bottom: 0;
+  }
+
+  .image {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .lidinn {
+    padding-bottom: 0;
+  }
+
+  .duration {
+    bottom: 3.75em;
+  }
+
+  .categories {
+    margin-left: 1em;
+    font-size: 1.5em;
+  }
+
+  .bordi {
+    padding-top: 0.625em;
+    margin-top: 3.75em;
+    margin-bottom: 1.25em;
+  }
+
+  .head {
+    padding-bottom: 0.5em;
+  }
+}
+
+@media (max-width: 710px) {
+  .leigan {
+    margin-left: 0;
+    font-size: 3em;
+  }
+
+  .myndbandaleigan {
+    padding-bottom: 0.5em;
+    margin-left: 0.2em;
+  }
+
+  .videos {
+    width: 100%;
+    padding-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .duration {
+    right: 0.3125em;
+    bottom: 6em;
+    font-size: 2em;
+  }
+
+  .image {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .categories {
+    margin-left: 0.3em;
+    font-size: 3em;
+  }
+
+  .bordi {
+    padding-top: 0.625em;
+    margin-top: 3.5em;
+    margin-bottom: 2em;
+  }
+
+  .lidinn {
+    padding-top: 0.3em;
+    padding-bottom: 1em;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .titill {
+    padding-top: 0.2em;
+    overflow: hidden;
+    font-size: 3em;
+    font-weight: bold;
+    text-overflow: clip;
+    white-space: nowrap;
+  }
+
+  .tilbaka {
+    margin-top: 1em;
+    font-size: 1.5em;
+  }
+
+  .head {
+    padding-bottom: 1em;
+  }
+
+  .villahlada {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 500px) {
+  .tilbaka {
+    font-size: 2em;
+  }
+
+  .pictakki {
+    max-width: 9em;}
+
+  .head {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    font-size: 2.5em;
+  }
+
+  .myndbandaleigan_video {
+    font-size: 2.5em;
+  }
+
+  .villahlada {
+    font-size: 2em;
+  }
+
+}
+@import "scss/footer";
+@import "scss/poster";
+@import "scss/text";
+@import "scss/takkar";
+@import "scss/videoframe";
